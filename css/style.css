@@ -85,9 +85,51 @@
     margin-bottom: 16px;
     color: var(--Dark-02, #444343);
 }
-.checkmark-part p{
-    
+
+.checkmark-display p{
   color: var(--Dark-02, #444343);
-    margin-bottom: 8px;
 }
+.checkmark-display{
+    display: flex;
+    gap: 5px;
+}
+
+
+/* section part 2 */
+.part2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 135px;
+}
+.part2-title{
+color: var(--Dark-01, #151414);
+font-size: 40px;
+padding-top: 985px;
+text-align: center;
+padding-bottom: 55px;
+}
+
+
+.part2-design{
+  display: flex;
+  text-align: center;
+  gap: 34px;
+  
+}
+
+.title-describe{
+  color: var(--Dark-01, #151414);
+  font-size: 30px;
+  font-weight: 700;
+
+}
+.design-describe p{
+  color: var(--Dark-03, #737272);
+  font-size: 25px;
+  font-weight: 500;
+
+}
+
+
 /* main part end */
