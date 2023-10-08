@@ -131,5 +131,51 @@ padding-bottom: 55px;
 
 }
 
+/* section part3 styles */
+.part3{
+  justify-content: center; 
+    align-items: center;
+  margin-left: 20%;
+  margin-bottom: 30px;
+}
+.backImage{
+  background-image: url(../images/gradient2.png),url("../images/watch.png");
+  background-repeat: no-repeat;
+   /* position: absolute;  */
+   width: 100%;
+   height:3 40px; 
+
+}
+.back-title {
+  padding-top: 50px;
+  padding-left: 64px;
+  color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+}
+
+.callNow-button{
+  width: 160px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+border: none;
+margin-left: 64px;
+margin-top: 24px;
+}
+.backImage button{
+  color: #F15B22;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 
 /* main part end */
